@@ -1,0 +1,14 @@
+printf "Welcome to the ndmg SiCCER (Scientific Cloud Container for Extensible and Reproducible Research)!
+Want to run subject level analysis? Try: 
+  >> run-subject
+Want to run group level analysis? Try:
+  >> run-group
+\n\n"
+
+alias run-subject='docker run -ti bids/ndmg:V19-ab4778'
+alias run-group='docker run -ti bids/ndmg:V19-ab4778'
+alias l=ls
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias sudo='echo "nope :)"'
