@@ -4,4 +4,4 @@
 
 set -e
 
-start.sh jupyter notebook $*
+start.sh jupyter notebook --no-browser$*
