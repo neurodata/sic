@@ -1,4 +1,4 @@
-FROM bids/ndmg:v0.0.32-2
+FROM bids/ndmg:v0.0.33
 MAINTAINER Greg Kiar <gkiar@jhu.edu>
 
 USER root
