@@ -9,19 +9,12 @@ cd ~/extensible-science-paper/code/jupyter
 docker build -t sic/ndmg .
 ```
 
-### Step 2: Clone ndmg
+### Step 2: Launch Docker Image
 
 ```
-cd ~
-git clone https://github.com/neurodata/ndmg ndmg
+docker run -d -p 80:8888  sic/ndmg
 ```
 
-### Step 3: Launch Docker Image
-
-```
-docker run -d -p 80:8888 -v ~/ndmg/tests/data:/home/sic-user/data sic/ndmg
-```
-
-### Step 4: Interact
+### Step 3: Interact
 
 Go to the IP address of the system you launched this on in your web broswer
