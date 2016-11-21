@@ -7,7 +7,7 @@ RUN apt-get -y install python2.7 python-pip python-dev
 RUN apt-get -y install ipython ipython-notebook git &&\
 		pip install --upgrade pip
 RUN pip install jupyter
-RUN apt-get -y install
+
 RUN useradd -m -s /bin/bash sic-user
 
 RUN pip install ndmg==0.0.38
