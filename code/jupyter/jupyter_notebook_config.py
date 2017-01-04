@@ -94,6 +94,7 @@
 # standard library module, which allows setting of the BROWSER environment
 # variable to override it.
 c.NotebookApp.browser = ''
+c.NotebookApp.token = ''
 
 # The full path to an SSL/TLS certificate file.
 

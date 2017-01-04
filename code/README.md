@@ -5,7 +5,7 @@ This guide assumes you are using the home directory as your working direcotyr
 ### Step 1: Compile Docker Image
 
 ```
-cd ~/extensible-science-paper/code/jupyter
+cd ~/sic/code/jupyter
 docker build -t sic/ndmg .
 ```
 
