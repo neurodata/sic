@@ -10,7 +10,7 @@ RUN pip install jupyter
 
 RUN useradd -m -s /bin/bash sic-user
 
-RUN pip install ndmg==0.0.38
+RUN pip install ndmg==0.0.39
 
 RUN mkdir -p /home/sic-user/.jupyter
 COPY jupyter_notebook_config.py /home/sic-user/.jupyter
