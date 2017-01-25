@@ -4,3 +4,6 @@
 [submodule "code/ndmg"]
 	path = code/ndmg
 	url = https://github.com/Bids-Apps/ndmg
+[submodule "response"]
+	path = response
+	url = https://git.overleaf.com/7868837nprtrpycrwxt
