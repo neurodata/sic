@@ -1,0 +1,21 @@
+{
+    "jobName": "myjob1", 
+    "jobQueue": "ndmg-queue", 
+    "dependsOn": [], 
+    "jobDefinition": "ndmg:5", 
+    "parameters": {}, 
+    "containerOverrides": {
+        "command": [
+            "/data/raw",
+					  "/data/outputs",
+            "participant",
+            "--bucket",
+            "mrneurodata",
+            "--remote_path",
+            "NKI1",
+            "--participant_label",
+            "0021001",
+            "--push_data"
+        ]
+    }
+}
