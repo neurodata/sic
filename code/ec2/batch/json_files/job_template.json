@@ -1,5 +1,5 @@
 {
-    "jobName": "", 
+    "jobName": "<JOBNAME>", 
     "jobQueue": "ndmg-queue", 
     "dependsOn": [], 
     "jobDefinition": "ndmg:5", 
