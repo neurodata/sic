@@ -1,0 +1,22 @@
+{
+    "jobName": "", 
+    "jobQueue": "ndmg-queue", 
+    "dependsOn": [], 
+    "jobDefinition": "ndmg:5", 
+    "parameters": {},
+    "containerOverrides": {
+        "command": [
+            "/data/raw",
+            "/data/outputs",
+            "participant",
+            "--bucket",
+            "<BUCKET>",
+            "--remote_path",
+            "<PATH>",
+            "--participant_label",
+            "<SUBJ>",
+            "--push_data",
+            "--debug"
+        ]
+    }
+}
