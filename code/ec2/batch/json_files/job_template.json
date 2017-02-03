@@ -2,7 +2,7 @@
     "jobName": "<JOBNAME>", 
     "jobQueue": "ndmg-queue", 
     "dependsOn": [], 
-    "jobDefinition": "ndmg:5", 
+    "jobDefinition": "ndmg", 
     "parameters": {},
     "containerOverrides": {
         "command": [
@@ -16,7 +16,6 @@
             "--participant_label",
             "<SUBJ>",
             "--push_data",
-            "--debug"
         ]
     }
 }
