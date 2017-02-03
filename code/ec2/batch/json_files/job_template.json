@@ -15,7 +15,7 @@
             "<PATH>",
             "--participant_label",
             "<SUBJ>",
-            "--push_data",
+            "--push_data"
         ]
     }
 }
