@@ -16,6 +16,16 @@
             "--participant_label",
             "<SUBJ>",
             "--push_data"
+        ],
+        "environment": [
+            {
+                "name": "AWS_ACCESS_KEY_ID",
+                "value": "<KEYID>"
+            },
+            {
+                "name": "AWS_SECRET_ACCESS_KEY",
+                "value": "<SECRET>"
+            }
         ]
     }
 }
