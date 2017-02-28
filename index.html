@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Science in the Cloud</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+								
+                <a class="navbar-brand" href="#">Science in the Cloud (SIC)</a>
+            </div>
+        </div>
+    </nav>
+
+		<header class="business-header"> </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>A Framework for Extensible Science</h2>
+                <p>Exploiting scientific containers, cloud computing, and cloud data services, we present a framework for performing
+and communicating scalable, reproducible, and extensible science in the cloud. We show the capability to compute massive amounts of data
+parallelly in the cloud, and run a web service that enables intimate interaction and demonstration with the tools and data presented. We
+hope this model will inspire the community to produce reproducible and, importantly, extensible results which will enable us to
+collectively accelerate the rate at which scientific breakthroughs are discovered, replicated, and extended.</p>
+								<p>
+                    <h4 style="display:inline"> Read our paper @ </h4>
+										<a class="btn btn-default btn-md" style="background-color: #006633; color: #fff;" href="#">GigaScience</a>
+										<a class="btn btn-default btn-md" style="background-color: #b31b1b; color: #fff;" href="https://arxiv.org/abs/1610.08484">arXiv</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+							  <h2></h2>
+								<a class="btn btn-default btn-md" style="; background-color: #318dde; color: #eee;" href="#">Try our Demo!</a>
+                <h2>Authors</h2>
+								<address>
+								Kiar, G; Gorgolewski, K, J; Kleissas, D; Gray Roncal, W; Litt, B; Wandell, B; Poldrack, R A; Wiener, M; Vogelstein, R J; Burns, R; Vogelstein, J T
+								</address>
+                <address>
+                    Corresponding Author: Joshua T. Vogelstein <a href="mailto:#">jovo@jhu.edu</a>
+                </address>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h2>Try our Demo</h2>
+                <p>Running as a persistent Jupyter server on Amazon's EC2, our demonstration walks through the ndmg pipeline and
+quality control. <ul style="list-style: none;">
+										<li> <a class="btn btn-default btn-sm" href="" >&raquo; Try it now!</a> </li>
+								 </ul>
+								</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h2>Fork our Code</h2>
+								<p>Download either the frozen-for-publication or up-to-date versions of our code and try sic yourself!
+                <ul>
+									<li><a href="">GigaDB Archive</a></li>
+									<li><a href="https://github.com/neurodata/sic/">sic on Github</a></li>
+									<li><a href="https://github.com/neurodata/ndmg/">ndmg on Github</a></li>
+								</ul></p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h2>Learn More</h2>
+                <p>Our pipeline is integrated with a variety of platforms, and has been used to process a variety of datasets.
+We encourage you to pull on one of these threads.
+								<ul>
+									<li><a href="http://m2g.io">Processed Data</a></li>
+									<li><a href="http://bids.neuroimaging.io">BIDS Apps</a></li>
+									<li><a href="http://boutiques.github.io">Boutiques</a></li>
+								</ul></p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; NeuroData <span id="year"></span></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+		<!-- JS year -->
+		<script>
+			document.getElementById("year").innerHTML = new Date().getFullYear();
+		</script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
