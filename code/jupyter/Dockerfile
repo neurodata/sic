@@ -3,6 +3,7 @@ MAINTAINER Greg Kiar <gkiar@jhu.edu>
 
 USER root
 
+RUN pip install setuptools==33.1.1
 RUN apt-get -y install python2.7 python-pip python-dev
 RUN apt-get -y install ipython ipython-notebook git &&\
 		pip install --upgrade pip
