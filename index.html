@@ -46,7 +46,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-10">
                 <h2>A Framework for Extensible Science</h2>
                 <p>Exploiting scientific containers, cloud computing, and cloud data services, we present a framework for performing
 and communicating scalable, reproducible, and extensible science in the cloud. We show the capability to compute massive amounts of data
@@ -59,16 +59,8 @@ collectively accelerate the rate at which scientific breakthroughs are discovere
 										<a class="btn btn-default btn-md" target="_blank" style="background-color: #b31b1b; color: #fff;" href="https://arxiv.org/abs/1610.08484">arXiv</a>
                 </p>
             </div>
-            <div class="col-sm-4">
-							  <h2>Try our Demo!</h2>
-								<ul style="list-style: none;"> 
-								<a class="btn btn-default btn-md" target="_blank" style="background-color: #318dde; color: #eee;" href="http://cortex.jhu.edu/notebooks/sic_ndmg.ipynb">Try out SIC!</a>
-                </li> </ul>
-                <p>Running as a persistent Jupyter notebook, our demonstration walks through the ndmg pipeline and quality control.</p>
-            </div>
         </div>
         <!-- /.row -->
-
         <hr>
 
         <div class="row">
@@ -108,7 +100,17 @@ in the cloud. We encourage you to pull on one of these threads.
         <!-- /.row -->
 
         <hr>
+				<div class="row">
+            <div class="col-sm-8">
+							  <h2>Try our Demo!</h2>
+                <p>To launch our demo, simply have Docker installed and run:</p>
+								<code>docker run -ti -p 80:8888 neurodata/sic:paper</code>
+								<p><br/>Then, go to your web browser at <a href="http://localhost:80/">http://localhost:80/</a> and click on the <code>sic_ndmg.ipynb</code> notebook.</p>
+            </div>
+						<div class="col-sm-4"><br/></div>
+				</div>
 
+        <hr>
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-lg-12">
 						<h3> References </h3>
